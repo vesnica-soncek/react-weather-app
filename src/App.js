@@ -10,7 +10,7 @@ export function App() {
 
     const logo = new URL('./assets/logo.svg', import.meta.url);
     const love = new URL('./assets/love.svg', import.meta.url);
-    const add = new URL("./assets/add.svg", import.meta.url);
+    const add = new URL('./assets/add.svg', import.meta.url);
 
     return (
         <>
@@ -24,7 +24,7 @@ export function App() {
             <Wrapper>
                 <Card></Card>
                 <Card>
-                    <img src={add} alt="add" />
+                    <img src={add} alt="add"/>
                     <p>Add New Location</p>
                 </Card>
             </Wrapper>

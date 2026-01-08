@@ -1,6 +1,5 @@
 .weather__wrapper {
-    background: rgba(0,0,0,0.2);
-    min-height: 575px;
-    width: 450px;
-    border-radius: 30px;
+    display: flex;
+    gap: 1rem;
+    margin: 3em;
 }
