@@ -5,6 +5,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Wrapper from "./Components/Card/Wrapper/Wrapper";
 import Card from "./Components/Card/Card";
+import Weather from "./Components/Weather/Weather";
 
 export function App() {
 
@@ -22,14 +23,16 @@ export function App() {
                 ]}/>
             </Header>
             <Wrapper>
-                <Card></Card>
+                <Card>
+                    <Weather/>
+                </Card>
                 <Card>
                     <img src={add} alt="add"/>
                     <p>Add New Location</p>
                 </Card>
             </Wrapper>
             <Footer>
-                <span>Made with <img src={love} alt="love"/> by Victor Alvarado</span>
+                <span>Made with by <img src={love} alt="love"/>Victor Alvarado</span>
             </Footer>
         </>
     );

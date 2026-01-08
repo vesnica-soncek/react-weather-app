@@ -6,7 +6,6 @@ const Weather = (props) => {
 
     return (
         <div className="weather">
-            <p>TODO</p>
             <WeatherHeader icon={sunny} location="Valle de Angeles, HN" date="Monday 01/17/2022"/>
         </div>
     )

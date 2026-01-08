@@ -1,5 +1,6 @@
-.weather__wrapper {
+.card__wrapper {
     display: flex;
     gap: 1rem;
     margin: 3em;
+    justify-content: center;
 }
